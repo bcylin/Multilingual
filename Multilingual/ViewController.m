@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Multilingual-Swift.h"
+#import <React/RCTRootView.h>
 
 @implementation ViewController
 
@@ -30,7 +32,16 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  self.view.backgroundColor = [UIColor lightGrayColor];
+  self.view.backgroundColor = [UIColor whiteColor];
+  self.edgesForExtendedLayout = UIRectEdgeNone;
+
+  AppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+  RCTRootView *reactView = [[RCTRootView alloc] initWithBridge:delegate.bridge
+                                                    moduleName:@"LanguagesView"
+                                             initialProperties:nil];
+  reactView.frame = self.view.bounds;
+  reactView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+  [self.view addSubview:reactView];
 }
 
 @end
