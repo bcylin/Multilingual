@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC8FBE67BD39BEF822A3B205 /* libPods-Multilingual.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D47F36DE3D0F45782E94DFF5 /* libPods-Multilingual.a */; };
 		B59740B81C1AC8420029C894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59740B71C1AC8420029C894 /* AppDelegate.swift */; };
 		B59740BD1C1AC8420029C894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59740BB1C1AC8420029C894 /* Main.storyboard */; };
 		B59740BF1C1AC8420029C894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59740BE1C1AC8420029C894 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F6C5460FA44B724D8F1E228 /* Pods-Multilingual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multilingual.release.xcconfig"; path = "Pods/Target Support Files/Pods-Multilingual/Pods-Multilingual.release.xcconfig"; sourceTree = "<group>"; };
 		B59740B41C1AC8420029C894 /* Multilingual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multilingual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59740B71C1AC8420029C894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B59740BC1C1AC8420029C894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		B59740CD1C1ACB6C0029C894 /* Multilingual-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multilingual-Bridging-Header.h"; sourceTree = "<group>"; };
 		B59740CE1C1ACB6C0029C894 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B59740CF1C1ACB6C0029C894 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D47F36DE3D0F45782E94DFF5 /* libPods-Multilingual.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Multilingual.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44F2614F8FC34488629580A /* Pods-Multilingual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multilingual.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Multilingual/Pods-Multilingual.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,16 +35,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8FBE67BD39BEF822A3B205 /* libPods-Multilingual.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C674F352043E08DC24D33CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E44F2614F8FC34488629580A /* Pods-Multilingual.debug.xcconfig */,
+				5F6C5460FA44B724D8F1E228 /* Pods-Multilingual.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A49E2FDC9EB076F3913827AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D47F36DE3D0F45782E94DFF5 /* libPods-Multilingual.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B59740AB1C1AC8420029C894 = {
 			isa = PBXGroup;
 			children = (
+				A49E2FDC9EB076F3913827AF /* Frameworks */,
 				B59740B61C1AC8420029C894 /* Multilingual */,
+				5C674F352043E08DC24D33CE /* Pods */,
 				B59740B51C1AC8420029C894 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,9 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B59740C61C1AC8420029C894 /* Build configuration list for PBXNativeTarget "Multilingual" */;
 			buildPhases = (
+				C2D4007AE8947FA2F18EFD42 /* Check Pods Manifest.lock */,
 				B59740B01C1AC8420029C894 /* Sources */,
 				B59740B11C1AC8420029C894 /* Frameworks */,
 				B59740B21C1AC8420029C894 /* Resources */,
+				8CFE3D1522113C74E17F7366 /* Embed Pods Frameworks */,
+				6A467F0F2AB92E9677E0E09C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A467F0F2AB92E9677E0E09C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Multilingual/Pods-Multilingual-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFE3D1522113C74E17F7366 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Multilingual/Pods-Multilingual-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D4007AE8947FA2F18EFD42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B59740B01C1AC8420029C894 /* Sources */ = {
@@ -249,6 +324,7 @@
 		};
 		B59740C71C1AC8420029C894 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44F2614F8FC34488629580A /* Pods-Multilingual.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -263,6 +339,7 @@
 		};
 		B59740C81C1AC8420029C894 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6C5460FA44B724D8F1E228 /* Pods-Multilingual.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
