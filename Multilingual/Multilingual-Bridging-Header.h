@@ -3,4 +3,4 @@
 //
 
 #import <React/RCTBridge.h>
-#import "ViewController.h"
+#import "JavaScriptTableViewController.h"

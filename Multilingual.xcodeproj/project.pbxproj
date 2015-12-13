@@ -8,15 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AC8FBE67BD39BEF822A3B205 /* libPods-Multilingual.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D47F36DE3D0F45782E94DFF5 /* libPods-Multilingual.a */; };
+		B585F1AF1C1DAB5E00A6A705 /* LanguagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585F1AE1C1DAB5E00A6A705 /* LanguagesViewController.swift */; };
 		B59740B81C1AC8420029C894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59740B71C1AC8420029C894 /* AppDelegate.swift */; };
 		B59740BD1C1AC8420029C894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59740BB1C1AC8420029C894 /* Main.storyboard */; };
 		B59740BF1C1AC8420029C894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59740BE1C1AC8420029C894 /* Assets.xcassets */; };
 		B59740C21C1AC8420029C894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59740C01C1AC8420029C894 /* LaunchScreen.storyboard */; };
-		B59740D01C1ACB6C0029C894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59740CF1C1ACB6C0029C894 /* ViewController.m */; };
+		B59740D01C1ACB6C0029C894 /* JavaScriptTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59740CF1C1ACB6C0029C894 /* JavaScriptTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F6C5460FA44B724D8F1E228 /* Pods-Multilingual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multilingual.release.xcconfig"; path = "Pods/Target Support Files/Pods-Multilingual/Pods-Multilingual.release.xcconfig"; sourceTree = "<group>"; };
+		B585F1AE1C1DAB5E00A6A705 /* LanguagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguagesViewController.swift; sourceTree = "<group>"; };
 		B59740B41C1AC8420029C894 /* Multilingual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multilingual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59740B71C1AC8420029C894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B59740BC1C1AC8420029C894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,8 +26,8 @@
 		B59740C11C1AC8420029C894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B59740C31C1AC8420029C894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B59740CD1C1ACB6C0029C894 /* Multilingual-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multilingual-Bridging-Header.h"; sourceTree = "<group>"; };
-		B59740CE1C1ACB6C0029C894 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B59740CF1C1ACB6C0029C894 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B59740CE1C1ACB6C0029C894 /* JavaScriptTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScriptTableViewController.h; sourceTree = "<group>"; };
+		B59740CF1C1ACB6C0029C894 /* JavaScriptTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScriptTableViewController.m; sourceTree = "<group>"; };
 		D47F36DE3D0F45782E94DFF5 /* libPods-Multilingual.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Multilingual.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44F2614F8FC34488629580A /* Pods-Multilingual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multilingual.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Multilingual/Pods-Multilingual.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,11 +85,12 @@
 				B59740B71C1AC8420029C894 /* AppDelegate.swift */,
 				B59740BE1C1AC8420029C894 /* Assets.xcassets */,
 				B59740C31C1AC8420029C894 /* Info.plist */,
+				B59740CE1C1ACB6C0029C894 /* JavaScriptTableViewController.h */,
+				B59740CF1C1ACB6C0029C894 /* JavaScriptTableViewController.m */,
+				B585F1AE1C1DAB5E00A6A705 /* LanguagesViewController.swift */,
 				B59740C01C1AC8420029C894 /* LaunchScreen.storyboard */,
 				B59740BB1C1AC8420029C894 /* Main.storyboard */,
 				B59740CD1C1ACB6C0029C894 /* Multilingual-Bridging-Header.h */,
-				B59740CE1C1ACB6C0029C894 /* ViewController.h */,
-				B59740CF1C1ACB6C0029C894 /* ViewController.m */,
 			);
 			path = Multilingual;
 			sourceTree = "<group>";
@@ -215,7 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59740B81C1AC8420029C894 /* AppDelegate.swift in Sources */,
-				B59740D01C1ACB6C0029C894 /* ViewController.m in Sources */,
+				B59740D01C1ACB6C0029C894 /* JavaScriptTableViewController.m in Sources */,
+				B585F1AF1C1DAB5E00A6A705 /* LanguagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

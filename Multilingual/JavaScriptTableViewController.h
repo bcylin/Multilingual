@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JavaScriptTableViewController.h
 //  Multilingual
 //
 //  Created by Ben on 11/12/2015.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface JavaScriptTableViewController : UIViewController
 
 @end
