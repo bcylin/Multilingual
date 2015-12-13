@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AC8FBE67BD39BEF822A3B205 /* libPods-Multilingual.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D47F36DE3D0F45782E94DFF5 /* libPods-Multilingual.a */; };
 		B585F1AF1C1DAB5E00A6A705 /* LanguagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585F1AE1C1DAB5E00A6A705 /* LanguagesViewController.swift */; };
+		B585F1B11C1DB30600A6A705 /* SwiftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585F1B01C1DB30600A6A705 /* SwiftTableViewController.swift */; };
+		B585F1B61C1DB51500A6A705 /* ObjectiveCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B585F1B51C1DB51500A6A705 /* ObjectiveCTableViewController.m */; };
 		B59740B81C1AC8420029C894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59740B71C1AC8420029C894 /* AppDelegate.swift */; };
 		B59740BD1C1AC8420029C894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59740BB1C1AC8420029C894 /* Main.storyboard */; };
 		B59740BF1C1AC8420029C894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59740BE1C1AC8420029C894 /* Assets.xcassets */; };
@@ -19,6 +21,9 @@
 /* Begin PBXFileReference section */
 		5F6C5460FA44B724D8F1E228 /* Pods-Multilingual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multilingual.release.xcconfig"; path = "Pods/Target Support Files/Pods-Multilingual/Pods-Multilingual.release.xcconfig"; sourceTree = "<group>"; };
 		B585F1AE1C1DAB5E00A6A705 /* LanguagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguagesViewController.swift; sourceTree = "<group>"; };
+		B585F1B01C1DB30600A6A705 /* SwiftTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTableViewController.swift; sourceTree = "<group>"; };
+		B585F1B41C1DB51500A6A705 /* ObjectiveCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCTableViewController.h; sourceTree = "<group>"; };
+		B585F1B51C1DB51500A6A705 /* ObjectiveCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCTableViewController.m; sourceTree = "<group>"; };
 		B59740B41C1AC8420029C894 /* Multilingual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multilingual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59740B71C1AC8420029C894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B59740BC1C1AC8420029C894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -91,6 +96,9 @@
 				B59740C01C1AC8420029C894 /* LaunchScreen.storyboard */,
 				B59740BB1C1AC8420029C894 /* Main.storyboard */,
 				B59740CD1C1ACB6C0029C894 /* Multilingual-Bridging-Header.h */,
+				B585F1B41C1DB51500A6A705 /* ObjectiveCTableViewController.h */,
+				B585F1B51C1DB51500A6A705 /* ObjectiveCTableViewController.m */,
+				B585F1B01C1DB30600A6A705 /* SwiftTableViewController.swift */,
 			);
 			path = Multilingual;
 			sourceTree = "<group>";
@@ -220,6 +228,8 @@
 				B59740B81C1AC8420029C894 /* AppDelegate.swift in Sources */,
 				B59740D01C1ACB6C0029C894 /* JavaScriptTableViewController.m in Sources */,
 				B585F1AF1C1DAB5E00A6A705 /* LanguagesViewController.swift in Sources */,
+				B585F1B61C1DB51500A6A705 /* ObjectiveCTableViewController.m in Sources */,
+				B585F1B11C1DB30600A6A705 /* SwiftTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

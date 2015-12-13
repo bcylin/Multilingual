@@ -4,3 +4,4 @@
 
 #import <React/RCTBridge.h>
 #import "JavaScriptTableViewController.h"
+#import "ObjectiveCTableViewController.h"

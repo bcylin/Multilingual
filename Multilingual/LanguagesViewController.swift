@@ -16,8 +16,8 @@ class LanguagesViewController: UITableViewController {
   }
 
   private let tableContents = [
-    Row(title: "Swift", controllerClass: UIViewController.self),
-    Row(title: "Objective-C", controllerClass: UIViewController.self),
+    Row(title: "Swift", controllerClass: SwiftTableViewController.self),
+    Row(title: "Objective-C", controllerClass: ObjectiveCTableViewController.self),
     Row(title: "JavaScript", controllerClass: JavaScriptTableViewController.self)
   ]
 
