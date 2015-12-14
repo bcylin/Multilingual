@@ -43,7 +43,7 @@ class LanguagesViewController: UITableViewController {
   }
 
   override func tableView(tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-    return "Same able view implemented in three languages."
+    return "Table view implemented in three languages."
   }
 
   // MARK: - UITableViewDelegate
